@@ -1,0 +1,108 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: Lightblue;
+	position: relative;
+}
+
+#PlantBowl {
+	width: 150px;
+	height: 150px;
+	background: red;
+	clip-path: circle(50% at 50% 38%);
+	top: 320px;
+	left: 194px;
+	position: absolute;
+}
+
+#Stem {
+	width: 150px;
+	height: 150px;
+	background: Lightgreen;
+	clip-path: polygon(25% 0%, 30% 0, 5% 100%, 0% 100%);;
+	top: 170px;
+	left: 263px;
+	position: absolute;
+}
+
+#circle {
+	width: 70px;
+	height: 70px;
+	background: orange;
+	border-radius: 150px;
+	top: 390px;
+	left: 420px;
+	position: absolute;
+}
+
+#flower1 {
+	width: 90px;
+	height: 90px;
+	background: linear-gradient(orange, yellow);
+	border-radius: 150px;
+	top: 112px;
+	left: 267px;
+	position: absolute;
+}
+
+#face {
+	width: 150px;
+	height: 150px;
+	background: Lightsalmon;
+	clip-path: polygon(35% 61%, 55% 30%, 60% 0, 98% 32%, 64% 21%, 52% 61%, 21% 83%, 6% 84%, 0 70%, 30% 68%);
+	top: 212px;
+	left: 587px;
+	position: absolute;
+}
+
+#wing1 {
+		width: 150px;
+		height: 150px;
+		background: Lightsalmon;
+		clip-path: polygon(0 49%, 0% 100%, 100% 100%);
+		top: 223px;
+		left: 547px;
+		position: absolute;
+}
+
+#body {
+		width: 150px;
+		height: 150px;
+		background: Lightsalmon;
+		clip-path: polygon(20% 0, 40% 54%, 55% 53%, 77% 0, 82% 71%, 32% 100%, 21% 83%, 6% 84%, 0 70%, 30% 68%);
+		top: 215px;
+		left: 500px;
+		position: absolute;
+}
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
