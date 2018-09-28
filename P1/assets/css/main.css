@@ -1,0 +1,1015 @@
+body {
+background-color: black;
+}
+
+:root{
+	--fontHeight: 200px;
+	--color: white;
+	--baseKern: 20px;
+	--position: relative;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(7,1fr);
+grid-gap: 5px;
+position:relative;
+padding: 50px;
+justify-content: center;
+}
+
+.letter {
+	position: relative;
+	border: 1px solid blue;
+	height: 170px;
+}
+
+/*A*/
+.A{
+	position: relative;
+	padding-right: var(--baseKern);
+	grid-row-start:1;
+	grid-row-end:1;
+	grid-column-start:1;
+	grid-column-end: 1;
+}
+
+#stemLeftA{
+	position: absolute;
+	width: 3px;
+	height: 165px;
+	background-color: var(--color);
+	transform: rotate(28deg);
+	left: 47px;
+}
+
+#stemRightA{
+	position: absolute;
+	left: 20px;
+	top: 7px;
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(45% 33%, 44% 0, 100% 100%, 81% 100%);
+	background-color: var(--color);
+}
+
+#serifA{
+position: absolute;
+left: 9px;
+top: 148px;
+width: 3px;
+height: 15px;
+background-color: var(--color);
+transform: rotate(270deg);
+}
+
+/*B*/
+.B{
+	padding-right: var(--baseKern);
+	grid-row-start:1;
+	grid-row-end:1;
+	grid-column-start:2;
+	grid-column-end: 2;
+}
+
+#stemLeftB{
+	position: absolute;
+	left: 50px;
+	top: 6px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemB1{
+	position: absolute;
+	left: 40px;
+	top: 6px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color)
+}
+
+#stemB2{
+	position: absolute;
+	left: 40px;
+	top: 80px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemB3{
+	position: absolute;
+	left: 40px;
+	top: 153px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#TummyB1{
+	position: absolute;
+    left: 99px;
+    top: 6px;
+    width: 50px;
+    height: 77px;
+    border: 41px white;
+    border-radius: 0px 100px 100px 0px;
+    border-left: none;
+    background-color: var(--color);
+}
+
+#TummyB2{
+	position: absolute;
+	left: 99px;
+	top: 80px;
+	width: 50px;
+	height: 76px;
+	border: 41px white;
+	border-radius: 0px 100px 100px 0px;
+	border-left: none;
+	background-color: var(--color);
+}
+
+#smallCircleB1{
+	position: absolute;
+	width: 50px;
+	height: 43px;
+	top: 23px;
+	left: 73px;
+	background: black;
+	border-radius: 30px;
+}
+
+#smallCircleB2{
+	position: absolute;
+	width: 50px;
+	height: 43px;
+	top: 96px;
+	left: 73px;
+	background: black;
+	border-radius: 30px;
+}
+
+/*C*/
+.C{
+	float: left;
+	padding-right: var(--baseKern);
+	border-radius:
+
+}
+
+#leftcurveC{
+	position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 0px;
+  left: 10px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 100px;
+}
+
+#rightcurve1C{
+	position: absolute;
+	width: 152px;
+	height: 152px;
+	top: 4px;
+	left: 14px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+
+#semicircleC{
+	position: absolute;
+    top: 4px;
+    left: 14px;
+    height: 152px;
+    width: 78px;
+    border-radius: 90px 0 0 90px;
+    background: black;
+}
+
+#smallCircleC{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 29px;
+    left: 41px;
+    background: black;
+    border-radius: 50px;
+}
+
+#triangleC{
+	top: 23px;
+    left: 81px;
+    position: absolute;
+    width: 0;
+    height: 20px;
+    border-right: 100px solid black;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+/*D*/
+.D{
+	float: left;
+	padding-right: var(--baseKern);
+}
+
+#semicircleD{
+	position: absolute;
+    top: 6px;
+    left: 69px;
+    height: 150px;
+    width: 78px;
+    border-radius: 0 90px 90px 0;
+    background: white;
+}
+
+#stemLeftD{
+	position: absolute;
+	left: 21px;
+	top: 6px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemD1{
+	position: absolute;
+	left: 21px;
+	top: 6px;
+	width: 51px;
+	height: 3px;
+	background-color: var(--color)
+}
+
+#stemD2{
+	position: absolute;
+	left: 21px;
+	top: 153px;
+	width: 51px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#smallCircleD{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 35px;
+	left: 27px;
+	background: black;
+	border-radius: 50px;
+}
+
+/*E*/
+.E{
+	padding-right: var(--baseKern);
+	position: relative;
+	top: 0;
+	left:0;
+	grid-row-start:1;
+	grid-row-end:1;
+	grid-column-start:5;
+	grid-column-end: 5;
+}
+
+#stemLeftE{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	width: 3px;
+	height: 149px;
+	background-color: var(--color);
+}
+
+#stemleftE1{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemleftE2{
+	position: absolute;
+	left: 30px;
+	top: 65px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemleftE3{
+	position: absolute;
+	left: 30px;
+  top: 156px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+.rightStem {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	background-color: var(--color);
+}
+
+#stemrightE1{
+	left: 80px;
+	top: 10px;
+}
+
+#stemrightE2{
+	left: 80px;
+	top: 65px;
+}
+
+#stemrightE3{
+	left: 80px;
+	top: 129px;
+}
+
+/*E*/
+.F{
+	padding-right: var(--baseKern);
+}
+
+#stemLeftF{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemleftF1{
+	position: absolute;
+	left: 60px;
+	top: -19px;
+	width: 3px;
+	height: 60px;
+	background-color: var(--color);
+	transform: rotate(270deg);
+}
+
+#stemleftF2{
+	position: absolute;
+	left: 60px;
+	top: 40px;
+	width: 3px;
+	height: 60px;
+	background-color: var(--color);
+	transform: rotate(270deg);
+}
+
+#serifF{
+	position: absolute;
+	left: 30px;
+	top: 151px;
+	width: 3px;
+	height: 15px;
+	background-color: var(--color);
+	transform: rotate(270deg);
+}
+
+#stemrightF1{
+	position: absolute;
+	left: 70px;
+	top: 9px;
+	width: 60px;
+	height: 30px;
+	background-color: var(--color);
+}
+
+#stemrightF2{
+	position: absolute;
+	left: 70px;
+	top: 68px;
+	width: 60px;
+	height: 30px;
+	background-color: var(--color);
+}
+
+/*G*/
+.G{
+	float: left;
+	padding-right: var(--baseKern);
+  top: 0px;
+	left: 300px;
+
+}
+
+#leftcurveG{
+	position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 0px;
+  left: 210px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 100px;
+}
+
+#rightcurve1G{
+	position: absolute;
+	width: 152px;
+	height: 152px;
+	top: 4px;
+	left: 214px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+
+#semicircleG{
+	position: absolute;
+    top: 4px;
+    left: 214px;
+    height: 152px;
+    width: 78px;
+    border-radius: 90px 0 0 90px;
+    background: black;
+}
+
+#smallCircleG{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 29px;
+    left: 241px;
+    background: black;
+    border-radius: 50px;
+}
+
+#triangleG{
+	top: 23px;
+    left: 281px;
+    position: absolute;
+    width: 0;
+    height: 20px;
+    border-right: 100px solid black;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+#Stem1G{
+	position: absolute;
+    top: 85px;
+    left: 323px;
+    width: 30px;
+    height: 45px;
+    background-color: var(--color)
+}
+
+#Stem2G{
+	position: absolute;
+    top: 73px;
+    left: 301px;
+    width: 52px;
+    height: 26px;
+    background-color: var(--color);
+}
+
+/*H*/
+.H{
+	float: left;
+	padding-right: var(--baseKern);
+}
+
+#stemLeftH1{
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemleftH2{
+	position: absolute;
+	left: 0px;
+	top: 88px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#StemRightH1{
+	position: absolute;
+    top: 88px;
+    left: 53px;
+    width: 60px;
+    height: 26px;
+    background-color: var(--color);
+}
+
+#StemRightH2{
+	position: absolute;
+	top: 15px;
+	left: 97px;
+	width: 30px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#serifH1{
+	position: absolute;
+	left: -6px;
+	top: 15px;
+	width: 15px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#serifH2{
+	position: absolute;
+	left: -6px;
+	top: 164px;
+	width: 15px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+/*I*/
+
+.I{
+	float: left;
+	padding-right: var(--baseKern);
+}
+
+#stemLeftI1{
+	position: absolute;
+	left: 30px;
+	top: 15px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemLeftI2{
+	position: absolute;
+	left: 30px;
+	top: 15px;
+	width: 25px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemLeftI3{
+	position: absolute;
+	left: 30px;
+	top: 162px;
+	width: 25px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemRightI1{
+	position: absolute;
+  top: 15px;
+  left: 53px;
+  width: 25px;
+  height: 150px;
+  background-color: var(--color);
+}
+
+/*J*/
+.J{
+	float: left;
+	padding-right: var(--baseKern);
+}
+
+#semicircleJ{
+	position: absolute;
+  top: 114px;
+  left: 100px;
+  height: 52px;
+  width: 107px;
+  border-radius: 0 0 90px 90px;
+  background-color: var(--color);
+}
+
+#quartercircleJ1{
+	position: absolute;
+	top: 114px;
+	left: 103px;
+	width: 59px;
+	height: 48px;
+	background-color: black;
+	border-radius: 0 0 0 90px;
+}
+
+#quartercircleJ2{
+	position: absolute;
+	top: 107px;
+	left: 145px;
+	width: 33px;
+	height: 29px;
+	background-color: black;
+	border-radius: 0 0 90px 0px;
+}
+
+#stemLeftJ{
+	 position: absolute;
+	 top: 15px;
+	 left: 177px;
+	 width: 30px;
+	 height: 100px;
+	 background-color: var(--color);
+}
+
+#serifJ{
+	position: absolute;
+  left: 95px;
+  top: 111px;
+  width: 15px;
+  height: 3px;
+  background-color: var(--color);
+}
+
+/*K*/
+.K{
+	float: left;
+	padding-right: var(--baseKern);
+}
+
+#stemLeftK{
+	position: absolute;
+    left: 0px;
+    top: 225px;
+    width: 3px;
+    height: 150px;
+    background-color: var(--color);
+}
+
+#serifK1{
+	position: absolute;
+  left: -5px;
+  top: 225px;
+  width: 15px;
+  height: 3px;
+  background-color: var(--color);
+}
+
+#serifK2{
+	position: absolute;
+  left: -5px;
+  top: 372px;
+  width: 15px;
+  height: 3px;
+  background-color: var(--color);
+}
+
+#stemRightK1{
+	position: absolute;
+	left: -1px;
+	top: 241px;
+	width: 138px;
+	height: 134px;
+	clip-path: polygon(0 46%, 23% 46%, 75% 100%, 51% 100%);
+  background-color: var(--color);
+}
+
+#stemRightK2{
+	position: absolute;
+	left: 1px;
+	top: 228px;
+	width: 134px;
+	height: 242px;
+	clip-path: polygon(28% 31%, 0 31%, 55% 0, 79% 0);
+	background-color: var(--color);
+}
+
+#triangleK{
+	position: absolute;
+    left: 6px;
+    top: 254px;
+    width: 0px;
+    height: 0;
+    border-right: 49px solid black;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+/*L*/
+.L{
+	float: left;
+	padding-right: var(--baseKern);
+}
+
+#stemLeftL{
+	position: absolute;
+	left: 420px;
+	top: 450px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemleftL1{
+	position: absolute;
+	left: 440px;
+	top: 569px;
+	width: 3px;
+	height: 60px;
+	background-color: var(--color);
+	transform: rotate(270deg);
+}
+
+#serifL{
+	position: absolute;
+	left: 420px;
+	top: 442px;
+	width: 3px;
+	height: 15px;
+	background-color: var(--color);
+	transform: rotate(270deg);
+}
+
+#stemrightL{
+	position: absolute;
+	left: 470px;
+	top: 571px;
+	width: 60px;
+	height: 30px;
+	background-color: var(--color);
+}
+
+/*M*/
+.M{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#stemleftM1{
+	position: absolute;
+	left: 111px;
+	top: 225px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemleftM2{
+	position: absolute;
+	left: 111px;
+	top: 225px;
+	width: 40px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemleftM3{
+	position: absolute;
+	left: 163px;
+	top: 223px;
+	width: 3px;
+	height: 100px;
+	background-color: var(--color);
+	transform: rotate(342deg);
+}
+
+#stemRightM1{
+	position: absolute;
+  left: 173px;
+  top: 226px;
+  width: 156px;
+  height: 241px;
+  background-color: var(--color);
+  clip-path: polygon(0 64%, 0 30%, 18% 0, 38% 0);
+}
+
+#stemRightM2{
+	position: absolute;
+  left: 225px;
+  top: 226px;
+  width: 30px;
+  height: 150px;
+  background-color: var(--color);
+}
+
+#counterM{
+	position: absolute;
+	left: 168px;
+	top: 365px;
+	width: 15px;
+	height: 15px;
+	background-color: black;
+}
+
+#serifM{
+	position: absolute;
+	left: 105px;
+	top: 372px;
+	width: 15px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+/*N*/
+.N{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#stemleftN1{
+	position: absolute;
+	left: 282px;
+	top: 225px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemleftN2{
+	position: absolute;
+	left: 282px;
+	top: 225px;
+	width: 40px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemleftN3{
+	position: absolute;
+	left: 334px;
+	top: 223px;
+	width: 3px;
+	height: 100px;
+	background-color: var(--color);
+	transform: rotate(342deg);
+}
+
+#stemRightN1{
+	position: absolute;
+	left: 282px;
+	top: 288px;
+	width: 136px;
+	height: 86px;
+	background-color: var(--color);
+	clip-path: polygon(89% 100%, 67% 100%, 44% 55%, 42% 0);
+}
+
+#stemRightN2{
+	position: absolute;
+  left: 385px;
+  top: 224px;
+  width: 30px;
+  height: 150px;
+  background-color: var(--color);
+}
+
+#serifN{
+	position: absolute;
+	left: 277px;
+	top: 372px;
+	width: 15px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+/*O*/
+.O{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#Circle0{
+	position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 219px;
+  left: 710px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 100px;
+}
+
+#counter0{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 248px;
+	left: 735px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+
+#SemicircleO{
+	position: absolute;
+  top: 223px;
+  left: 714px;
+  height: 152px;
+  width: 78px;
+  border-radius: 90px 0 0 90px;
+  background: black;
+}
+.V{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+/*P*/
+.P{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#stemLeftP{
+	position: absolute;
+	left: 770px;
+	top: 225px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemP1{
+	position: absolute;
+	left: 770px;
+	top: 225px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color)
+}
+
+#stemP2{
+	position: absolute;
+	left: 770px;
+	top: 297px;
+	width: 60px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#TummyP{
+	position: absolute;
+    left: 821px;
+    top: 225px;
+    width: 50px;
+    height: 75px;
+    border: 41px white;
+    border-radius: 0px 100px 100px 0px;
+    border-left: none;
+    background-color: var(--color);
+}
+
+#smallCircleP{
+	position: absolute;
+	width: 50px;
+	height: 43px;
+	top: 242px;
+	left: 796px;
+	background-color: black;
+	border-radius: 30px;
+}
+
+/* #stemLeftV{
+position: absolute;
+width: 3px;
+height: 165px;
+background-color: var(--color);
+transform: rotate(158deg);
+}
+
+#stemRightV{
+position: absolute;
+left: 31px;
+top: 65px;
+width: 150px;
+height: 150px;
+clip-path: polygon(45% 33%, 44% 0, 100% 100%, 81% 100%);
+background-color: var(--color);
+transform: rotate(158deg);
+}
+
+#serifV{
+	position: absolute;
+	left: 20px;
+	top: 206px;
+	width: 3px;
+	height: 15px;
+	background-color: var(--color);
+	transform: rotate(270deg);
+}
