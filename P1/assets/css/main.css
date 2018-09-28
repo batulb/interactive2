@@ -11,12 +11,14 @@ background-color: black;
 
 .grid {
 display: grid;
-grid-template-columns: repeat(7,1fr);
-grid-template-rows: repeat(7,1fr);
-grid-gap: 5px;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows: repeat(5,1fr);
+grid-gap: 30px;
 position:relative;
 padding: 50px;
+padding-right: 300px;
 justify-content: center;
+
 }
 
 .letter {
@@ -225,7 +227,7 @@ transform: rotate(270deg);
 #semicircleD{
 	position: absolute;
     top: 6px;
-    left: 69px;
+    left: 79px;
     height: 150px;
     width: 78px;
     border-radius: 0 90px 90px 0;
@@ -234,7 +236,7 @@ transform: rotate(270deg);
 
 #stemLeftD{
 	position: absolute;
-	left: 21px;
+	left: 31px;
 	top: 6px;
 	width: 3px;
 	height: 150px;
@@ -243,7 +245,7 @@ transform: rotate(270deg);
 
 #stemD1{
 	position: absolute;
-	left: 21px;
+	left: 31px;
 	top: 6px;
 	width: 51px;
 	height: 3px;
@@ -252,7 +254,7 @@ transform: rotate(270deg);
 
 #stemD2{
 	position: absolute;
-	left: 21px;
+	left: 31px;
 	top: 153px;
 	width: 51px;
 	height: 3px;
@@ -264,7 +266,7 @@ transform: rotate(270deg);
 	width: 90px;
 	height: 90px;
 	top: 35px;
-	left: 27px;
+	left: 37px;
 	background: black;
 	border-radius: 50px;
 }
@@ -341,6 +343,7 @@ transform: rotate(270deg);
 
 /*E*/
 .F{
+	float: left;
 	padding-right: var(--baseKern);
 }
 
@@ -405,8 +408,6 @@ transform: rotate(270deg);
 .G{
 	float: left;
 	padding-right: var(--baseKern);
-  top: 0px;
-	left: 300px;
 
 }
 
@@ -415,7 +416,7 @@ transform: rotate(270deg);
   width: 160px;
   height: 160px;
   top: 0px;
-  left: 210px;
+  left: 10px;
   background: white;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -427,7 +428,7 @@ transform: rotate(270deg);
 	width: 152px;
 	height: 152px;
 	top: 4px;
-	left: 214px;
+	left: 14px;
 	background: white;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -437,7 +438,7 @@ transform: rotate(270deg);
 #semicircleG{
 	position: absolute;
     top: 4px;
-    left: 214px;
+    left: 14px;
     height: 152px;
     width: 78px;
     border-radius: 90px 0 0 90px;
@@ -449,14 +450,14 @@ transform: rotate(270deg);
     width: 100px;
     height: 100px;
     top: 29px;
-    left: 241px;
+    left: 41px;
     background: black;
     border-radius: 50px;
 }
 
 #triangleG{
 	top: 23px;
-    left: 281px;
+    left: 81px;
     position: absolute;
     width: 0;
     height: 20px;
@@ -468,7 +469,7 @@ transform: rotate(270deg);
 #Stem1G{
 	position: absolute;
     top: 85px;
-    left: 323px;
+    left: 123px;
     width: 30px;
     height: 45px;
     background-color: var(--color)
@@ -477,7 +478,7 @@ transform: rotate(270deg);
 #Stem2G{
 	position: absolute;
     top: 73px;
-    left: 301px;
+    left: 101px;
     width: 52px;
     height: 26px;
     background-color: var(--color);
@@ -491,7 +492,7 @@ transform: rotate(270deg);
 
 #stemLeftH1{
 	position: absolute;
-	left: 0px;
+	left: 20px;
 	top: 15px;
 	width: 3px;
 	height: 150px;
@@ -500,7 +501,7 @@ transform: rotate(270deg);
 
 #stemleftH2{
 	position: absolute;
-	left: 0px;
+	left: 20px;
 	top: 88px;
 	width: 60px;
 	height: 3px;
@@ -510,7 +511,7 @@ transform: rotate(270deg);
 #StemRightH1{
 	position: absolute;
     top: 88px;
-    left: 53px;
+    left: 73px;
     width: 60px;
     height: 26px;
     background-color: var(--color);
@@ -519,7 +520,7 @@ transform: rotate(270deg);
 #StemRightH2{
 	position: absolute;
 	top: 15px;
-	left: 97px;
+	left: 127px;
 	width: 30px;
 	height: 150px;
 	background-color: var(--color);
@@ -527,7 +528,7 @@ transform: rotate(270deg);
 
 #serifH1{
 	position: absolute;
-	left: -6px;
+	left: 16px;
 	top: 15px;
 	width: 15px;
 	height: 3px;
@@ -536,7 +537,7 @@ transform: rotate(270deg);
 
 #serifH2{
 	position: absolute;
-	left: -6px;
+	left: 16px;
 	top: 164px;
 	width: 15px;
 	height: 3px;
@@ -595,7 +596,7 @@ transform: rotate(270deg);
 #semicircleJ{
 	position: absolute;
   top: 114px;
-  left: 100px;
+  left: 120px;
   height: 52px;
   width: 107px;
   border-radius: 0 0 90px 90px;
@@ -605,7 +606,7 @@ transform: rotate(270deg);
 #quartercircleJ1{
 	position: absolute;
 	top: 114px;
-	left: 103px;
+	left: 123px;
 	width: 59px;
 	height: 48px;
 	background-color: black;
@@ -615,7 +616,7 @@ transform: rotate(270deg);
 #quartercircleJ2{
 	position: absolute;
 	top: 107px;
-	left: 145px;
+	left: 165px;
 	width: 33px;
 	height: 29px;
 	background-color: black;
@@ -625,7 +626,7 @@ transform: rotate(270deg);
 #stemLeftJ{
 	 position: absolute;
 	 top: 15px;
-	 left: 177px;
+	 left: 197px;
 	 width: 30px;
 	 height: 100px;
 	 background-color: var(--color);
@@ -633,7 +634,7 @@ transform: rotate(270deg);
 
 #serifJ{
 	position: absolute;
-  left: 95px;
+  left: 115px;
   top: 111px;
   width: 15px;
   height: 3px;
@@ -648,8 +649,8 @@ transform: rotate(270deg);
 
 #stemLeftK{
 	position: absolute;
-    left: 0px;
-    top: 225px;
+    left: 85px;
+    top: 15px;
     width: 3px;
     height: 150px;
     background-color: var(--color);
@@ -657,8 +658,8 @@ transform: rotate(270deg);
 
 #serifK1{
 	position: absolute;
-  left: -5px;
-  top: 225px;
+  left: 80px;
+  top: 15px;
   width: 15px;
   height: 3px;
   background-color: var(--color);
@@ -666,8 +667,8 @@ transform: rotate(270deg);
 
 #serifK2{
 	position: absolute;
-  left: -5px;
-  top: 372px;
+  left: 80px;
+  top: 162px;
   width: 15px;
   height: 3px;
   background-color: var(--color);
@@ -675,8 +676,8 @@ transform: rotate(270deg);
 
 #stemRightK1{
 	position: absolute;
-	left: -1px;
-	top: 241px;
+	left: 84px;
+	top: 30px;
 	width: 138px;
 	height: 134px;
 	clip-path: polygon(0 46%, 23% 46%, 75% 100%, 51% 100%);
@@ -685,8 +686,8 @@ transform: rotate(270deg);
 
 #stemRightK2{
 	position: absolute;
-	left: 1px;
-	top: 228px;
+	left: 84px;
+	top: 17px;
 	width: 134px;
 	height: 242px;
 	clip-path: polygon(28% 31%, 0 31%, 55% 0, 79% 0);
@@ -695,8 +696,8 @@ transform: rotate(270deg);
 
 #triangleK{
 	position: absolute;
-    left: 6px;
-    top: 254px;
+    left: 88px;
+    top: 42px;
     width: 0px;
     height: 0;
     border-right: 49px solid black;
@@ -712,8 +713,8 @@ transform: rotate(270deg);
 
 #stemLeftL{
 	position: absolute;
-	left: 420px;
-	top: 450px;
+	left: 50px;
+	top: 16px;
 	width: 3px;
 	height: 150px;
 	background-color: var(--color);
@@ -721,8 +722,8 @@ transform: rotate(270deg);
 
 #stemleftL1{
 	position: absolute;
-	left: 440px;
-	top: 569px;
+	left: 70px;
+	top: 135px;
 	width: 3px;
 	height: 60px;
 	background-color: var(--color);
@@ -731,8 +732,8 @@ transform: rotate(270deg);
 
 #serifL{
 	position: absolute;
-	left: 420px;
-	top: 442px;
+	left: 50px;
+	top: 10px;
 	width: 3px;
 	height: 15px;
 	background-color: var(--color);
@@ -741,8 +742,8 @@ transform: rotate(270deg);
 
 #stemrightL{
 	position: absolute;
-	left: 470px;
-	top: 571px;
+	left: 94px;
+	top: 137px;
 	width: 60px;
 	height: 30px;
 	background-color: var(--color);
@@ -757,8 +758,8 @@ transform: rotate(270deg);
 
 #stemleftM1{
 	position: absolute;
-	left: 111px;
-	top: 225px;
+	left: 20px;
+	top: 17px;
 	width: 3px;
 	height: 150px;
 	background-color: var(--color);
@@ -766,8 +767,8 @@ transform: rotate(270deg);
 
 #stemleftM2{
 	position: absolute;
-	left: 111px;
-	top: 225px;
+	left: 20px;
+	top: 17px;
 	width: 40px;
 	height: 3px;
 	background-color: var(--color);
@@ -775,8 +776,8 @@ transform: rotate(270deg);
 
 #stemleftM3{
 	position: absolute;
-	left: 163px;
-	top: 223px;
+	left: 74px;
+	top: 15px;
 	width: 3px;
 	height: 100px;
 	background-color: var(--color);
@@ -785,8 +786,8 @@ transform: rotate(270deg);
 
 #stemRightM1{
 	position: absolute;
-  left: 173px;
-  top: 226px;
+  left: 85px;
+  top: 17px;
   width: 156px;
   height: 241px;
   background-color: var(--color);
@@ -795,8 +796,8 @@ transform: rotate(270deg);
 
 #stemRightM2{
 	position: absolute;
-  left: 225px;
-  top: 226px;
+  left: 132px;
+  top: 17px;
   width: 30px;
   height: 150px;
   background-color: var(--color);
@@ -804,8 +805,8 @@ transform: rotate(270deg);
 
 #counterM{
 	position: absolute;
-	left: 168px;
-	top: 365px;
+	left: 80px;
+	top: 155px;
 	width: 15px;
 	height: 15px;
 	background-color: black;
@@ -813,8 +814,8 @@ transform: rotate(270deg);
 
 #serifM{
 	position: absolute;
-	left: 105px;
-	top: 372px;
+	left: 14px;
+	top: 164px;
 	width: 15px;
 	height: 3px;
 	background-color: var(--color);
@@ -829,8 +830,8 @@ transform: rotate(270deg);
 
 #stemleftN1{
 	position: absolute;
-	left: 282px;
-	top: 225px;
+	left: 36px;
+	top: 18px;
 	width: 3px;
 	height: 150px;
 	background-color: var(--color);
@@ -838,8 +839,8 @@ transform: rotate(270deg);
 
 #stemleftN2{
 	position: absolute;
-	left: 282px;
-	top: 225px;
+	left: 36px;
+	top: 18px;
 	width: 40px;
 	height: 3px;
 	background-color: var(--color);
@@ -847,8 +848,8 @@ transform: rotate(270deg);
 
 #stemleftN3{
 	position: absolute;
-	left: 334px;
-	top: 223px;
+	left: 89px;
+	top: 16px;
 	width: 3px;
 	height: 100px;
 	background-color: var(--color);
@@ -857,8 +858,8 @@ transform: rotate(270deg);
 
 #stemRightN1{
 	position: absolute;
-	left: 282px;
-	top: 288px;
+	left: 39px;
+	top: 83px;
 	width: 136px;
 	height: 86px;
 	background-color: var(--color);
@@ -867,8 +868,8 @@ transform: rotate(270deg);
 
 #stemRightN2{
 	position: absolute;
-  left: 385px;
-  top: 224px;
+  left: 132px;
+  top: 19px;
   width: 30px;
   height: 150px;
   background-color: var(--color);
@@ -876,8 +877,8 @@ transform: rotate(270deg);
 
 #serifN{
 	position: absolute;
-	left: 277px;
-	top: 372px;
+	left: 30px;
+	top: 165px;
 	width: 15px;
 	height: 3px;
 	background-color: var(--color);
@@ -894,8 +895,8 @@ transform: rotate(270deg);
 	position: absolute;
   width: 160px;
   height: 160px;
-  top: 219px;
-  left: 710px;
+  top: 7px;
+  left: 10px;
   background: white;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -906,8 +907,8 @@ transform: rotate(270deg);
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	top: 248px;
-	left: 735px;
+	top: 38px;
+	left: 35px;
 	background: black;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -916,17 +917,12 @@ transform: rotate(270deg);
 
 #SemicircleO{
 	position: absolute;
-  top: 223px;
-  left: 714px;
+  top: 11px;
+  left: 14px;
   height: 152px;
   width: 78px;
   border-radius: 90px 0 0 90px;
   background: black;
-}
-.V{
-	float: left;
-	padding-right: var(--baseKern);
-	display: block;
 }
 
 /*P*/
@@ -938,8 +934,8 @@ transform: rotate(270deg);
 
 #stemLeftP{
 	position: absolute;
-	left: 770px;
-	top: 225px;
+	left: 45px;
+	top: 20px;
 	width: 3px;
 	height: 150px;
 	background-color: var(--color);
@@ -947,26 +943,26 @@ transform: rotate(270deg);
 
 #stemP1{
 	position: absolute;
-	left: 770px;
-	top: 225px;
-	width: 60px;
+	left: 35px;
+	top: 20px;
+	width: 72px;
 	height: 3px;
 	background-color: var(--color)
 }
 
 #stemP2{
 	position: absolute;
-	left: 770px;
-	top: 297px;
-	width: 60px;
+	left: 35px;
+	top: 92px;
+	width: 72px;
 	height: 3px;
 	background-color: var(--color);
 }
 
 #TummyP{
 	position: absolute;
-    left: 821px;
-    top: 225px;
+    left: 95px;
+    top: 20px;
     width: 50px;
     height: 75px;
     border: 41px white;
@@ -979,11 +975,144 @@ transform: rotate(270deg);
 	position: absolute;
 	width: 50px;
 	height: 43px;
-	top: 242px;
-	left: 796px;
+	top: 36px;
+	left: 70px;
 	background-color: black;
 	border-radius: 30px;
 }
+
+/*Q*/
+.Q{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#CircleQ{
+	position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 7px;
+  left: 10px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 100px;
+}
+
+#counterQ{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 38px;
+	left: 35px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+
+#SemicircleQ{
+	position: absolute;
+  top: 11px;
+  left: 14px;
+  height: 152px;
+  width: 78px;
+  border-radius: 90px 0 0 90px;
+  background: black;
+}
+
+#stemrightQ{
+	position: absolute;
+	left: 97px;
+	top: 137px;
+	width: 72px;
+	height: 30px;
+	background-color: var(--color);
+}
+
+/*R*/
+.P{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#stemLeftR{
+	position: absolute;
+	left: 45px;
+	top: 20px;
+	width: 3px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemR1{
+	position: absolute;
+	left: 35px;
+	top: 20px;
+	width: 72px;
+	height: 3px;
+	background-color: var(--color)
+}
+
+#stemR2{
+	position: absolute;
+	left: 35px;
+	top: 92px;
+	width: 72px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#TummyR{
+	position: absolute;
+    left: 95px;
+    top: 20px;
+    width: 50px;
+    height: 75px;
+    border: 41px white;
+    border-radius: 0px 100px 100px 0px;
+    border-left: none;
+    background-color: var(--color);
+}
+
+#smallCircleR{
+	position: absolute;
+	width: 50px;
+	height: 43px;
+	top: 36px;
+	left: 70px;
+	background-color: black;
+	border-radius: 30px;
+}
+
+#stemrightR{
+	position: absolute;
+	width: 104px;
+	height: 76px;
+	top: 93px;
+	left: 64px;
+	clip-path: polygon(0 0, 30% 0, 82% 100%, 49% 98%);
+	background-color: var(--color);
+/* border-radius: 30px; */
+}
+
+/*S*/
+.S{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+
+/*T*/
+.T{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
 
 /* #stemLeftV{
 position: absolute;
