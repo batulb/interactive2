@@ -16,6 +16,7 @@ grid-template-rows: repeat(5,1fr);
 grid-gap: 30px;
 position:relative;
 padding: 50px;
+padding-bottom: 100px;
 padding-right: 300px;
 justify-content: center;
 
@@ -29,12 +30,9 @@ justify-content: center;
 
 /*A*/
 .A{
+	float: left;
 	position: relative;
 	padding-right: var(--baseKern);
-	grid-row-start:1;
-	grid-row-end:1;
-	grid-column-start:1;
-	grid-column-end: 1;
 }
 
 #stemLeftA{
@@ -1105,6 +1103,65 @@ transform: rotate(270deg);
 	display: block;
 }
 
+#circleS1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 5px;
+	left: 36px;
+	background: white;
+	border-radius: 100px;
+}
+
+#circleS2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 68px;
+	left: 36px;
+	background: white;
+	border-radius: 100px;
+}
+
+#smallcircleS1{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 29px;
+	left: 61px;
+	background: black;
+	border-radius: 100px;
+}
+
+#smallcircleS2{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 96px;
+	left: 61px;
+	background: black;
+	border-radius: 100px;
+}
+
+#halfcircleS1{
+	position: absolute;
+    left: 40px;
+    top: 76px;
+    height: 86px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+}
+
+#halfcircleS2{
+	position: absolute;
+    left: 40px;
+    top: 8px;
+    height: 86px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+}
 
 /*T*/
 .T{
@@ -1113,32 +1170,235 @@ transform: rotate(270deg);
 	display: block;
 }
 
+#stemleftT{
+	position: absolute;
+  left: 20px;
+  top: 18px;
+  width: 72px;
+  height: 3px;
+  background-color: var(--color);
+}
 
-/* #stemLeftV{
-position: absolute;
-width: 3px;
-height: 165px;
-background-color: var(--color);
-transform: rotate(158deg);
+#stemrightT1{
+	position: absolute;
+  left: 82px;
+  top: 18px;
+  width: 30px;
+  height: 150px;
+  background-color: var(--color);
+}
+
+#stemrightT2{
+	position: absolute;
+  left: 111px;
+  top: 18px;
+  width: 43px;
+  height: 30px;
+  background-color: var(--color);
+}
+
+#serifT{
+	position: absolute;
+  left: 20px;
+  top: 12px;
+  width: 3px;
+  height: 15px;
+  background-color: var(--color);
+}
+
+/*U*/
+.U{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#serifU{
+	z-index: 1;
+	position: absolute;
+  left: 12px;
+  top: 16px;
+  width: 15px;
+  height: 3px;
+  background-color: var(--color);
+}
+
+#halfcircleU{
+	position: absolute;
+  left: 17px;
+  top: 17px;
+  height: 150px;
+  width: 140px;
+  border-radius: 0 0 264px 264px;
+  background-color: var(--color);
+}
+
+#quarterU1{
+	position: absolute;
+	z-index: 1;
+	left: 22px;
+	top: 16px;
+	height: 147px;
+	width: 65px;
+	border-radius: 0 0 0px 264px;
+	background-color: #000000;
+}
+
+#quarterU2{
+	z-index: 1;
+  position: absolute;
+  left: 69px;
+  top: 17px;
+  height: 127px;
+  width: 61px;
+  border-radius: 0 0 264px 0px;
+  background-color: black;
+}
+
+/*V*/
+.V{
+	position: relative;
+	padding-right: var(--baseKern);
+	transform: rotate(180deg);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#stemLeftV{
+	position: absolute;
+	width: 3px;
+	height: 165px;
+	background-color: var(--color);
+	transform: rotate(28deg);
+	left: 47px;
 }
 
 #stemRightV{
-position: absolute;
-left: 31px;
-top: 65px;
-width: 150px;
-height: 150px;
-clip-path: polygon(45% 33%, 44% 0, 100% 100%, 81% 100%);
-background-color: var(--color);
-transform: rotate(158deg);
+	position: absolute;
+	left: 20px;
+	top: 7px;
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(45% 33%, 44% 0, 100% 100%, 81% 100%);
+	background-color: var(--color);
 }
 
 #serifV{
+position: absolute;
+left: 9px;
+top: 148px;
+width: 3px;
+height: 15px;
+background-color: var(--color);
+transform: rotate(270deg);
+}
+
+.W{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+	transform: rotate(180deg);
+}
+
+#stemleftW1{
 	position: absolute;
 	left: 20px;
-	top: 206px;
+	top: 7px;
 	width: 3px;
-	height: 15px;
+	height: 150px;
 	background-color: var(--color);
-	transform: rotate(270deg);
 }
+
+#stemleftW2{
+	position: absolute;
+	left: 20px;
+	top: 7px;
+	width: 40px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemleftW3{
+	position: absolute;
+	left: 74px;
+	top: 5px;
+	width: 3px;
+	height: 100px;
+	background-color: var(--color);
+	transform: rotate(342deg);
+}
+
+#stemRightW1{
+	position: absolute;
+  left: 85px;
+  top: 7px;
+  width: 156px;
+  height: 241px;
+  background-color: var(--color);
+  clip-path: polygon(0 64%, 0 30%, 18% 0, 38% 0);
+}
+
+#stemRightW2{
+	position: absolute;
+  left: 132px;
+  top: 7px;
+  width: 30px;
+  height: 150px;
+  background-color: var(--color);
+}
+
+#counterW{
+	position: absolute;
+	left: 80px;
+	top: 145px;
+	width: 15px;
+	height: 15px;
+	background-color: black;
+}
+
+#serifW{
+	position: absolute;
+	left: 14px;
+	top: 154px;
+	width: 15px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+.grid2 {
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows: repeat(2,1fr);
+grid-gap: 30px;
+position:relative;
+padding: 50px;
+padding-top: 0px;
+padding-right: 300px;
+justify-content: center;
+
+}
+
+.number {
+	position: relative;
+	border: 1px solid blue;
+	height: 170px;
+
+}
+
+.grid3 {
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: repeat(1,1fr);
+	grid-gap: 30px;
+	position:relative;
+	padding-top: 0px;
+	padding: 50px;
+	padding-right: 300px;
+	justify-content: center;
+
+}
+
+.mark {
+		position: relative;
+		border: 1px solid blue;
+		height: 170px;
