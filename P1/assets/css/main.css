@@ -889,7 +889,7 @@ transform: rotate(270deg);
 	display: block;
 }
 
-#Circle0{
+#CircleO{
 	position: absolute;
   width: 160px;
   height: 160px;
@@ -901,7 +901,7 @@ transform: rotate(270deg);
   border-radius: 100px;
 }
 
-#counter0{
+#counterO{
 	position: absolute;
 	width: 100px;
 	height: 100px;
@@ -1103,65 +1103,6 @@ transform: rotate(270deg);
 	display: block;
 }
 
-#circleS1{
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	top: 5px;
-	left: 36px;
-	background: white;
-	border-radius: 100px;
-}
-
-#circleS2{
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	top: 68px;
-	left: 36px;
-	background: white;
-	border-radius: 100px;
-}
-
-#smallcircleS1{
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	top: 29px;
-	left: 61px;
-	background: black;
-	border-radius: 100px;
-}
-
-#smallcircleS2{
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	top: 96px;
-	left: 61px;
-	background: black;
-	border-radius: 100px;
-}
-
-#halfcircleS1{
-	position: absolute;
-    left: 40px;
-    top: 76px;
-    height: 86px;
-    width: 45px;
-    border-radius: 90px 0 0 90px;
-    background-color: black;
-}
-
-#halfcircleS2{
-	position: absolute;
-    left: 40px;
-    top: 8px;
-    height: 86px;
-    width: 45px;
-    border-radius: 90px 0 0 90px;
-    background-color: black;
-}
 
 /*T*/
 .T{
@@ -1293,6 +1234,7 @@ background-color: var(--color);
 transform: rotate(270deg);
 }
 
+/*W*/
 .W{
 	float: left;
 	padding-right: var(--baseKern);
@@ -1385,6 +1327,242 @@ justify-content: center;
 
 }
 
+/*1*/
+#stemright1{
+	position: absolute;
+	left: 90px;
+	top: 7px;
+	width: 30px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemleft1{
+	position: absolute;
+  left: 71px;
+  top: -1px;
+  width: 3px;
+  height: 60px;
+  background-color: var(--color);
+  transform: rotate(45deg);
+}
+
+/*8*/
+#circle31{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 5px;
+	left: 36px;
+	background: white;
+	border-radius: 100px;
+}
+
+#circle32{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 68px;
+	left: 36px;
+	background: white;
+	border-radius: 100px;
+}
+
+#smallcircle31{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 29px;
+	left: 61px;
+	background: black;
+	border-radius: 100px;
+}
+
+#smallcircle32{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 96px;
+	left: 61px;
+	background: black;
+	border-radius: 100px;
+}
+
+#halfcircle31{
+	position: absolute;
+    left: 40px;
+    top: 76px;
+    height: 86px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+}
+
+#halfcircle32{
+	position: absolute;
+    left: 40px;
+    top: 8px;
+    height: 86px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+}
+
+#counter3{
+	position: absolute;
+	left: 27px;
+	top: 41px;
+	height: 92px;
+	width: 45px;
+	background-color: black;
+}
+
+/*4*/
+#stemright4{
+	position: absolute;
+	left: 92px;
+	top: 7px;
+	width: 30px;
+	height: 150px;
+	background-color: var(--color);
+}
+
+#stemleft4{
+	position: absolute;
+left: 56px;
+top: -5px;
+width: 3px;
+height: 130px;
+background-color: var(--color);
+transform: rotate(36deg)
+}
+
+#stemleft42{
+	position: absolute;
+	left: 18px;
+	top: 130px;
+	width: 128px;
+	height: 3px;
+	background-color: var(--color);
+}
+
+#stemleft43{
+	position: absolute;
+  left: 18px;
+  top: 112px;
+  width: 3px;
+  height: 21px;
+  background-color: var(--color);
+}
+
+
+}
+
+
+#stemright42{
+	position: absolute;
+    left: 121px;
+    top: 115px;
+    width: 25px;
+    height: 20px;
+    background-color: var(--color);
+}
+
+/*8*/
+#circle81{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 5px;
+	left: 36px;
+	background: white;
+	border-radius: 100px;
+}
+
+#circle82{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 68px;
+	left: 36px;
+	background: white;
+	border-radius: 100px;
+}
+
+#smallcircle81{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 29px;
+	left: 61px;
+	background: black;
+	border-radius: 100px;
+}
+
+#smallcircle82{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 96px;
+	left: 61px;
+	background: black;
+	border-radius: 100px;
+}
+
+#halfcircle81{
+	position: absolute;
+    left: 40px;
+    top: 76px;
+    height: 86px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+}
+
+#halfcircle82{
+	position: absolute;
+    left: 40px;
+    top: 8px;
+    height: 86px;
+    width: 45px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+}
+
+/*0*/
+#Circle0{
+	position: absolute;
+    width: 120px;
+    height: 160px;
+    top: 3px;
+    left: 28px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 120px;
+}
+
+#counter0{
+		position: absolute;
+    width: 81px;
+    height: 115px;
+    top: 27px;
+    left: 38px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+}
+
+#Semicircle0{
+	position: absolute;
+	top: 6px;
+	left: 34px;
+	height: 153px;
+	width: 59px;
+	border-radius: 90px 0 0 90px;
+	background: black;
+}
 .grid3 {
 	display: grid;
 	grid-template-columns: repeat(5,1fr);
