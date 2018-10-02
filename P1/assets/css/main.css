@@ -1467,6 +1467,61 @@ transform: rotate(36deg)
     background-color: var(--color);
 }
 
+/*6*/
+.number6{
+	transform: rotate(180deg);
+}
+
+#circle6{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	top: 5px;
+	left: 31px;
+	background: white;
+	border-radius: 100px;
+}
+
+#smallcircle6{
+		position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 29px;
+    left: 55px;
+    background: black;
+    border-radius: 100px;
+}
+
+#halfcircle6{
+	position: absolute;
+    left: 34px;
+    top: 10px;
+    height: 100px;
+    width: 52px;
+    border-radius: 0 90px 90px 0;
+    background-color: black;
+}
+
+#triangle6{
+	position: absolute;
+	left: 86px;
+	top: 94px;
+	width: 44px;
+	height: 65px;
+	clip-path: polygon(0 0, 0% 100%, 99% 0);
+	background-color: #ffffff;
+}
+
+#stemleft6{
+	position: absolute;
+    left: 81px;
+    top: 86px;
+    width: 3px;
+    height: 75px;
+    background-color: white;
+    transform: rotate(27deg);
+}
+
 /*8*/
 #circle81{
 	position: absolute;
@@ -1527,6 +1582,58 @@ transform: rotate(36deg)
     border-radius: 90px 0 0 90px;
     background-color: black;
 }
+
+/*9*/
+#circle9{
+	position: absolute;
+width: 110px;
+height: 110px;
+top: 5px;
+left: 31px;
+background: white;
+border-radius: 100px;
+}
+
+#smallcircle9{
+	position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 29px;
+    left: 55px;
+    background: black;
+    border-radius: 100px;
+}
+
+#halfcircle9{
+	position: absolute;
+    left: 34px;
+    top: 10px;
+    height: 100px;
+    width: 52px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+}
+
+#triangle9{
+	position: absolute;
+	left: 86px;
+	top: 94px;
+	width: 44px;
+	height: 65px;
+	clip-path: polygon(0 0, 0% 100%, 99% 0);
+	background-color: #ffffff;
+}
+
+#stemleft9{
+	position: absolute;
+    left: 81px;
+    top: 86px;
+    width: 3px;
+    height: 75px;
+    background-color: white;
+    transform: rotate(27deg);
+}
+
 
 /*0*/
 #Circle0{
