@@ -1458,7 +1458,6 @@ transform: rotate(36deg)
 
 }
 
-
 #stemright42{
 	position: absolute;
     left: 121px;
@@ -1563,6 +1562,7 @@ transform: rotate(36deg)
 	border-radius: 90px 0 0 90px;
 	background: black;
 }
+
 .grid3 {
 	display: grid;
 	grid-template-columns: repeat(5,1fr);
@@ -1580,3 +1580,80 @@ transform: rotate(36deg)
 		position: relative;
 		border: 1px solid blue;
 		height: 170px;
+}
+
+/*stopmark*/
+.stopmark{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#Circlestop{
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		top: 90px;
+		left: 100px;
+		background: white;
+		-moz-border-radius: 50px;
+	  -webkit-border-radius: 50px;
+		border-radius: 100px;
+}
+
+#Semicirclestop{
+	position: absolute;
+top: 93px;
+left: 103px;
+height: 54px;
+width: 28px;
+border-radius: 90px 0 0 90px;
+background: black;
+}
+
+/*stop mark*/
+.ex{
+	float: left;
+	padding-right: var(--baseKern);
+	display: block;
+}
+
+#Circlesex{
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		top: 90px;
+		left: 60px;
+		background: white;
+		-moz-border-radius: 50px;
+	  -webkit-border-radius: 50px;
+		border-radius: 100px;
+}
+
+#Semicircleex{
+	position: absolute;
+top: 93px;
+left: 63px;
+height: 54px;
+width: 28px;
+border-radius: 90px 0 0 90px;
+background: black;
+}
+
+#stemleftex{
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	height: 62px;
+	width: 3px;
+	background: white;
+}
+
+#stemrightex{
+	position: absolute;
+	    top: 15px;
+	    left: 90px;
+	    height: 62px;
+	    width: 22px;
+	    background: white;
+}
