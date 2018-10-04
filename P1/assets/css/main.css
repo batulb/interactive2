@@ -1,10 +1,10 @@
 body {
 }
 
-.intro{
+/* .intro{
 	background-position: 50% 50%;
 	background-size: cover;
-}
+} */
 
 :root{
 	--fontHeight: 200px;
@@ -13,6 +13,235 @@ body {
 	--position: relative;
 }
 
+.background{
+	background-color: black;
+	width: 100%;
+	height: 800px;
+}
+
+.intro{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(1,1fr);
+	grid-gap: 2px;
+	position:relative;
+	padding: 50px;
+	padding-top: 250px;
+	padding-bottom: 100px;
+	padding-right: 300px;
+	padding-left: 600px;
+}
+
+.change{
+	position: relative;
+	/* border: 1px solid blue; */
+	height: 170px;
+	width: 170px;
+}
+
+#word11{
+	position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 7px;
+  left: 10px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 100px;
+}
+
+#word12{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 38px;
+	left: 35px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+
+#word13{
+	position: absolute;
+  top: 11px;
+  left: 14px;
+  height: 152px;
+  width: 78px;
+  border-radius: 90px 0 0 90px;
+  background: black;
+}
+
+
+#word21{
+	position: absolute;
+    top: 6px;
+    left: 79px;
+    height: 150px;
+    width: 78px;
+    border-radius: 0 90px 90px 0;
+    background: white;
+}
+
+#word22{
+	position: absolute;
+	left: 31px;
+	top: 6px;
+	width: 3px;
+	height: 150px;
+	background-color: white;
+}
+
+#word23{
+	position: absolute;
+	left: 31px;
+	top: 6px;
+	width: 51px;
+	height: 3px;
+	background-color: white;
+}
+
+#word24{
+	position: absolute;
+	left: 31px;
+	top: 153px;
+	width: 51px;
+	height: 3px;
+	background-color: white;
+}
+
+#word25{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 35px;
+	left: 37px;
+	background: black;
+	border-radius: 50px;
+}
+
+
+#word31{
+	position: absolute;
+    top: 6px;
+    left: 79px;
+    height: 150px;
+    width: 78px;
+    border-radius: 0 90px 90px 0;
+    background: white;
+}
+
+#word32{
+	position: absolute;
+	left: 31px;
+	top: 6px;
+	width: 3px;
+	height: 150px;
+	background-color: white;
+}
+
+#word33{
+	position: absolute;
+	left: 31px;
+	top: 6px;
+	width: 51px;
+	height: 3px;
+	background-color: white;
+}
+
+#word34{
+	position: absolute;
+	left: 31px;
+	top: 153px;
+	width: 51px;
+	height: 3px;
+	background-color: white;
+}
+
+#word35{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 35px;
+	left: 37px;
+	background: black;
+	border-radius: 50px;
+}
+
+#word41{
+	position: absolute;
+    left: 41px;
+    top: 6px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+#word42{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 27px;
+	left: 60px;
+	background-color: black;
+	border-radius: 30px;
+}
+
+#word43{
+	position: absolute;
+    top: 58px;
+    left: 41px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 0 0 0 90px;
+}
+
+#word44{
+	position: absolute;
+	top: 11px;
+	left: 45px;
+	width: 44px;
+	height: 50px;
+	background: black;
+	border-radius: 90px 0 0 0;
+}
+
+#word45{
+	position: absolute;
+top: 87px;
+left: 87px;
+width: 6px;
+height: 36px;
+background: white;
+}
+
+#word46{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 133px;
+	left: 70px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+
+#word47{
+	position: absolute;
+	    top: 135px;
+	    left: 72px;
+	    height: 25px;
+	    width: 15px;
+	    border-radius: 90px 0 0 90px;
+	    background: black;
+}
+
+
+
 .grid {
 display: grid;
 grid-template-columns: repeat(5,1fr);
@@ -20,6 +249,7 @@ grid-template-rows: repeat(5,1fr);
 grid-gap: 30px;
 position:relative;
 padding: 50px;
+padding-top: 70px;
 padding-bottom: 100px;
 padding-right: 300px;
 justify-content: center;
