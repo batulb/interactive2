@@ -1,0 +1,48 @@
+body {
+	background: black;
+	color: white;
+	font-family: monaco;
+
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+  	min-height: 100vh;
+}
+
+.noon {
+	background: red;
+}
+
+/* #clock {
+	border: 1px solid white;
+	width: 500px;
+	height: 500px;
+
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+} */
+#hr{
+	height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#min{
+	height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#sec{
+	height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
