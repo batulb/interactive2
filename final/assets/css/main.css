@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img:hover {
+    mix-blend-mode: normal;
+    filter: none;
+}
+
+body {
+  overflow-x: hidden;
+  /* background: #231A51; */
+}
+
+#water {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+video {
+  width: 100vw;
+  height: auto;
+}
+
+/* Add some content at the bottom of the video/page */
+.firstpage{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0);
+    /* color: #f1f1f1; */
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+  z-index: 20;
+  font-size: 18px;
+}
+/*
+img #artist{
+  height:33px; */
+  /* font-kerning: 300; */
+  /* position: absolute;
+  z-index: 1;
+  left: 1050px;
+  color: white;
+  top: 70px;
+  background-blend-mode: multiply;
+} */
+
+.title{
+  font-family:"Orator STD", sans-serif;
+  font-size: 30px;
+  height:33px;
+  /* font-kerning: 300; */
+  position: absolute;
+  z-index: 1;
+  font-variant: small-caps;
+  left: 1050px;
+  color: white;
+  top: 70px;
+}
+
+.subtitle{
+  font-family: "Orator STD", sans-serif;
+  /* font-weight: normal; */
+  font-size: 20px;
+  font-kerning: normal;
+  position: absolute;
+  font-variant: small-caps;
+  z-index: 1;
+  left: 1050px;
+  color: white;
+  top: 105px;
+}
+
+h2{
+  font-family: "Orator STD", monospace;
+  font-weight: normal;
+  font-kerning: normal;
+  position: absolute;
+  z-index: 1;
+  font-size: 25px;
+  /* left: 800px; */
+  color: white;
+  /* top: 600px; */
+}
+
+h3{
+  font-family: "Orator STD", monospace;
+  font-weight: normal;
+  font-kerning: normal;
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  font-size: 25px;
+  /* left: 800px; */
+  color: white;
+  /* top: 600px; */
+}
+
+#About {
+  width: 33.33333vw;
+  height: 100vh;
+  background: #0C4D76;
+
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* #About h2 {
+    height: 10000px;
+    line-height: 10000px;
+    z-index: 1;
+    left: 143px;
+    color: white;
+    top: -4266px;
+    position: absolute;
+} */
+#About h2 {
+    z-index: 10;
+    left: 170px;
+    position: relative;
+    padding-top: 93vh;
+    margin-bottom: 5vh;
+
+}
+
+#About video{
+    left: 0vw;
+    top: 0px;
+    position: absolute;
+}
+
+/* #About p{
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  font-kerning: normal;
+  color: white;
+  height: 10000px;
+  line-height: 10000px;
+  z-index: 1;
+  left: 143px;
+  color: white;
+  top: -4266px;
+  position: absolute;
+} */
+
+#About p{
+  font-family: "Avenir", sans-serif;
+  font-weight: lighter;
+  font-kerning: normal;
+  color: white;
+  font size: 2px;
+  z-index: 10;
+  position: relative;
+  /* text-align: justify; */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#Artwork {
+  width: 33.33333vw;
+  height: 100vh;
+  background: #0C4D76;
+
+  position: absolute;
+  top: 0px;
+  left: 33vw;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#Artwork h2 {
+    left: 160px;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    position: relative;
+    padding-top: 93vh;
+    margin-bottom: 5vh;
+}
+
+#Artwork video{
+    left: -33vw;
+    top: 0px;
+    position: absolute;
+}
+
+#Artwork p{
+  font-family: "Avenir", sans-serif;
+  font-weight: lighter;
+  font-kerning: normal;
+  color: white;
+  font size: 2px;
+  padding-left: 50px;
+  padding-left: 30px;
+  z-index: 10;
+  position: relative;
+  text-align: justify;
+}
+
+img{
+    /* border: 1px solid #ddd; */
+    z-index: 1;
+    /* border-radius: 4px; */
+    /* padding: 5px; */
+    width: 430px;
+    position: relative;
+    /* padding left: 800px; */
+    /* justify-content: center; */
+    mix-blend-mode: screen;
+    filter: grayscale();
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
+#Date{
+  width: 33.3333vw;
+  height: 100vh;
+  background: #0C4D76;
+  /* background: purple; */
+
+  position: absolute;
+  top: 0px;
+  left: 66vw;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#Date h2 {
+  z-index: 1;
+  left: 143px;
+  color: white;
+  position: absolute;
+  z-index: 10;
+  position: relative;
+  padding-top: 93vh;
+  margin-bottom: 5vh;
+}
+
+#Date video{
+    left: -66vw;
+    top: 0px;
+    position: absolute;
+}
+
+#Date p{
+  font-family: "Avenir", sans-serif;
+  font-weight: lighter;
+  font-kerning: normal;
+  color: white;
+  font size: 10px;
+  padding-left: 50px;
+  z-index: 10;
+  position: relative;
+}
+
+/* #water3{
+  position: absolute;
+  left:66vw;
+} */
